@@ -1,0 +1,78 @@
+<%@ Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="MasterPage_master" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+    
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="HeadElement" runat="server">
+	<title></title>
+	<link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-color:Gray">
+	<form id="MainForm" runat="server" style="background-color:Gray" >
+         <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <center>
+        <asp:Image Width="1000px"  runat="server" ID="Image2" ImageUrl="~/Images/logo.jpg"/>
+		</center>		
+		<%--<div id="title">	
+			
+		<h1>	
+		<asp:HyperLink ID="HeaderLink" runat="server"  Font-Underline="false" NavigateUrl="~/">Help Desk</asp:HyperLink>
+		</h1>		
+		</div>--%>
+		
+		<div class="none">
+		
+                     &nbsp;</div>
+		<div id="nav_header" style="width:1000px; height:47px;">
+			<ul>
+                <asp:HyperLink ID="hlkHome" runat="server" Text="Home"></asp:HyperLink>
+				<asp:HyperLink ID="hlkLogin" runat="server" Text="Login" NavigateUrl="~/login.aspx"></asp:HyperLink>
+			</ul>
+		</div>		
+		<div id="crumbs" style="width:980px">
+	    <asp:ContentPlaceHolder ID="SecondBar" runat="server">
+				<div id="crumbs_text">
+				<asp:Label id="One" runat="server" Text=""></asp:Label>
+                    &nbsp;</div>
+                 <%--   <asp:SiteMapPath runat="server"></asp:SiteMapPath>--%>
+                    
+					</asp:ContentPlaceHolder>
+		
+		
+		</div>
+		<asp:ContentPlaceHolder ID="Main" runat="server">
+		
+			<div id="col_main_left" >
+			
+			
+				<div id="featured_item">
+				
+                    </div>
+				<div id="announcements">
+				</div>
+			</div>
+			<div id="col_main_right">
+				<h3 class="section">
+					</h3>
+					
+				<div class="content_right">
+                    <div id="Div1">
+                    
+                    </div>
+				</div>
+			</div>
+		</asp:ContentPlaceHolder>
+		<%--<div id="footer" style="width:980px">
+			<div id="footer_nav">
+                &nbsp;</div>
+		</div>
+		<div id="disclaimer">
+			<a href="#">Disclaimer</a>. 
+		</div>--%>
+		<asp:SiteMapDataSource ID="SiteMapDataSource"  runat="server" ShowStartingNode="false" />		
+	</form>
+</body>
+</html>
