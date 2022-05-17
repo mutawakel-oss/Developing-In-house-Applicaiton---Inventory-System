@@ -4,4 +4,5 @@ In this project I worked as a Software Engineer / Data Engineer in developing an
 Develop a centralized system that provides data including on-hand quantities reorder points, inventory catalog, inventory catalog supplements, preventive maintenance...etc. 
 # Project Objectives:
 •	To provide a utility for each department to generate the SPR requests.
+
 •	To provide a utility for each department to enter the properties of its department into the system.
