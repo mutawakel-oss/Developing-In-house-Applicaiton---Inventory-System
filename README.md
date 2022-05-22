@@ -6,3 +6,18 @@ Develop a centralized system that provides data including on-hand quantities reo
 •	To provide a utility for each department to generate the SPR requests.
 
 •	To provide a utility for each department to enter the properties of its department into the system.
+
+# System Sample Screenshots:
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Applicaiton---Inventory-System/blob/main/Additional%20Screenshots/inventory%20system-main%20page.jpg)
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Applicaiton---Inventory-System/blob/main/Additional%20Screenshots/inventory%20system-%20users%20page.jpg)
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Applicaiton---Inventory-System/blob/main/Additional%20Screenshots/inventory%20system%20-%20creating%20spr.jpg)
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Applicaiton---Inventory-System/blob/main/Additional%20Screenshots/Inventory%20system%20-%20isnpecting.jpg)
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Applicaiton---Inventory-System/blob/main/Additional%20Screenshots/Inventory%20system%20-%20approving.jpg)
+
+
+
